@@ -5,11 +5,11 @@
   "main": "dist/main.js",
   "author": "davidcanas",
   "license": "MIT",
+  "packageManager": "pnpm@12.6.0",
   "scripts": {
     "build": "tsc",
     "start": "node dist/main.js",
-    "dev": "tsx src/main.ts",
-    "run": "node run.js"
+    "dev": "tsx src/main.ts"
   },
   "dependencies": {
     "@napi-rs/canvas": "^1.0.9",
