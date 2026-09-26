@@ -1,0 +1,24 @@
+{
+  "name": "zecaafonso",
+  "version": "1.1.0",
+  "description": "Bot criado para auxiliar o servidor da 1ª matricula de ECT",
+  "main": "dist/main.js",
+  "author": "davidcanas",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts",
+    "run": "node run.js"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "dotenv": "^18.0.3",
+    "mathjs": "^15.2.0",
+    "oceanic.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
