@@ -63,7 +63,7 @@ export default class Calc extends Command {
 		if (result === Infinity || result === -Infinity || result.toString() === "NaN") result = "Impossível calcular";
 
 		const embed = new this.client.embed()
-			.setTitle("<:calc:1187461287433740288> Calculadora")
+			.setTitle("🧮 Calculadora")
 			.setColor("RANDOM")
 			.addField("Cálculo", `\`\`\`${ctx.args.join(" ")}\`\`\``)
 			.addField("Resultado", `\`\`\`${result}\`\`\``);
